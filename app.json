@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Giga Intranet",
+    "scheme": "giga-intranet",
+    "slug": "giga-intranet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-cn.png",
+    "splash": {
+      "image": "./assets/splash-cn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4582C3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-cn.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon-cn.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos"
+        }
+      ]
+    ]
+  }
+}
